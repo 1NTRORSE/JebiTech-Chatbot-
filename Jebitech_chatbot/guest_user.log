@@ -1,0 +1,128 @@
+2025-05-05 15:53:26,204 - ERROR - Error in transfer_to_customer_care: Could not convert `part.function_call` to text.
+2025-05-05 15:55:12,244 - ERROR - Error in transfer_to_customer_care: Could not convert `part.function_call` to text.
+2025-05-05 15:59:07,902 - INFO - Non-SQL response detected
+2025-05-06 13:03:25,363 - INFO - Session 2a86395d-22b8-4f85-a1a9-e0a8db6cc666 transferred to customer care.
+2025-05-06 14:00:16,960 - INFO - Session 2a86395d-22b8-4f85-a1a9-e0a8db6cc666 transferred to customer care.
+2025-05-06 14:17:16,183 - INFO - Non-SQL response detected
+2025-05-06 14:41:00,774 - INFO - Non-SQL response detected
+2025-05-06 14:43:23,173 - INFO - Non-SQL response detected
+2025-05-06 14:49:44,124 - INFO - Non-SQL response detected
+2025-05-06 15:06:30,806 - INFO - Non-SQL response detected
+2025-05-06 15:06:49,237 - INFO - Non-SQL response detected
+2025-05-06 15:07:03,780 - INFO - Non-SQL response detected
+2025-05-06 15:55:27,689 - INFO - Non-SQL response detected
+2025-05-06 16:06:18,660 - INFO - Non-SQL response detected
+2025-05-06 16:51:38,749 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-05-06 16:54:38,638 - INFO - Non-SQL response detected
+2025-05-06 17:00:52,816 - INFO - Non-SQL response detected
+2025-05-06 17:29:40,150 - INFO - Non-SQL response detected
+2025-05-06 17:33:39,865 - INFO - Non-SQL response detected
+2025-05-06 17:35:59,256 - INFO - Non-SQL response detected
+2025-05-06 17:36:17,150 - INFO - Non-SQL response detected
+2025-05-06 18:10:05,159 - INFO - Non-SQL response detected
+2025-05-07 10:51:43,929 - INFO - Non-SQL response detected
+2025-05-07 10:55:04,323 - INFO - SQL query detected in response
+2025-05-07 11:03:51,068 - INFO - Non-SQL response detected
+2025-05-07 11:08:59,392 - INFO - Non-SQL response detected
+2025-05-07 11:11:17,331 - INFO - Non-SQL response detected
+2025-05-07 11:12:12,213 - INFO - Non-SQL response detected
+2025-05-07 11:13:26,446 - INFO - Non-SQL response detected
+2025-05-07 11:37:30,132 - INFO - Non-SQL response detected
+2025-05-07 12:13:04,112 - INFO - Non-SQL response detected
+2025-05-07 12:33:52,836 - INFO - Non-SQL response detected
+2025-05-07 12:34:03,507 - INFO - Non-SQL response detected
+2025-05-07 12:35:37,988 - INFO - Non-SQL response detected
+2025-05-07 12:35:44,027 - INFO - Non-SQL response detected
+2025-05-07 12:40:07,146 - INFO - Non-SQL response detected
+2025-05-07 12:40:13,538 - INFO - Non-SQL response detected
+2025-05-07 12:44:13,668 - INFO - Non-SQL response detected
+2025-05-07 12:44:21,299 - INFO - Non-SQL response detected
+2025-05-07 12:47:22,799 - INFO - Non-SQL response detected
+2025-05-07 12:50:08,987 - INFO - Non-SQL response detected
+2025-05-07 12:51:23,581 - INFO - Non-SQL response detected
+2025-05-07 14:17:41,039 - INFO - Non-SQL response detected
+2025-05-07 14:17:47,137 - INFO - Non-SQL response detected
+2025-05-07 14:18:40,590 - INFO - Non-SQL response detected
+2025-05-07 14:44:03,166 - INFO - Non-SQL response detected
+2025-05-07 14:46:48,435 - INFO - Non-SQL response detected
+2025-05-07 14:47:38,202 - INFO - Non-SQL response detected
+2025-05-07 14:48:52,975 - INFO - Non-SQL response detected
+2025-05-07 14:51:41,310 - INFO - Non-SQL response detected
+2025-05-07 15:02:17,200 - INFO - Non-SQL response detected
+2025-05-07 15:02:23,265 - INFO - Non-SQL response detected
+2025-05-07 15:41:05,548 - INFO - Non-SQL response detected
+2025-05-07 15:44:18,572 - INFO - Non-SQL response detected
+2025-05-07 15:58:51,529 - INFO - Non-SQL response detected
+2025-05-07 16:00:46,926 - INFO - Non-SQL response detected
+2025-05-07 16:09:14,955 - INFO - Non-SQL response detected
+2025-05-07 16:25:42,569 - INFO - Non-SQL response detected
+2025-05-07 16:25:55,988 - INFO - Non-SQL response detected
+2025-05-07 16:26:03,974 - INFO - Non-SQL response detected
+2025-05-07 16:26:27,834 - INFO - Non-SQL response detected
+2025-05-07 16:34:08,277 - INFO - Non-SQL response detected
+2025-05-07 16:34:14,330 - INFO - Non-SQL response detected
+2025-05-07 16:34:19,383 - INFO - Non-SQL response detected
+2025-05-07 16:34:43,577 - INFO - Non-SQL response detected
+2025-05-07 16:34:49,591 - INFO - Non-SQL response detected
+2025-05-07 16:34:53,935 - INFO - SQL query detected in response
+2025-05-07 16:35:02,961 - INFO - Non-SQL response detected
+2025-05-07 16:35:16,317 - INFO - Non-SQL response detected
+2025-05-07 16:35:19,799 - INFO - Non-SQL response detected
+2025-05-07 16:39:06,920 - INFO - Non-SQL response detected
+2025-05-07 16:40:20,812 - INFO - Non-SQL response detected
+2025-05-07 16:40:26,075 - INFO - Non-SQL response detected
+2025-05-07 16:40:29,425 - INFO - Non-SQL response detected
+2025-05-07 16:40:33,068 - INFO - Non-SQL response detected
+2025-05-07 16:41:39,445 - INFO - Non-SQL response detected
+2025-05-07 16:44:04,594 - INFO - Non-SQL response detected
+2025-05-07 17:14:52,273 - INFO - Non-SQL response detected
+2025-05-07 18:08:39,158 - INFO - Non-SQL response detected
+2025-05-08 11:07:19,854 - INFO - Non-SQL response detected
+2025-05-08 11:07:40,058 - INFO - Non-SQL response detected
+2025-05-08 11:08:15,277 - INFO - Non-SQL response detected
+2025-05-08 11:16:00,631 - INFO - Non-SQL response detected
+2025-05-08 11:22:55,271 - INFO - Non-SQL response detected
+2025-05-08 11:26:12,105 - INFO - Non-SQL response detected
+2025-05-08 11:26:23,982 - INFO - Non-SQL response detected
+2025-05-08 11:28:17,134 - INFO - Non-SQL response detected
+2025-05-08 11:28:29,523 - INFO - Non-SQL response detected
+2025-05-08 11:36:01,685 - INFO - Non-SQL response detected
+2025-05-08 11:36:49,639 - INFO - Non-SQL response detected
+2025-05-08 11:48:09,469 - INFO - Non-SQL response detected
+2025-05-08 11:48:59,211 - INFO - Non-SQL response detected
+2025-05-08 11:49:49,971 - INFO - Non-SQL response detected
+2025-05-08 11:50:08,576 - INFO - Non-SQL response detected
+2025-05-08 11:52:56,264 - INFO - Non-SQL response detected
+2025-05-08 11:53:13,082 - INFO - Non-SQL response detected
+2025-05-08 11:53:25,639 - INFO - Non-SQL response detected
+2025-05-08 11:53:48,887 - INFO - Non-SQL response detected
+2025-05-08 11:54:05,449 - INFO - Non-SQL response detected
+2025-05-08 11:54:19,892 - INFO - Non-SQL response detected
+2025-05-08 11:55:55,056 - INFO - Non-SQL response detected
+2025-05-08 11:56:30,096 - INFO - SQL query detected in response
+2025-05-08 11:59:50,899 - INFO - Non-SQL response detected
+2025-05-08 11:59:56,159 - INFO - SQL query detected in response
+2025-05-08 12:00:16,194 - INFO - SQL query detected in response
+2025-05-08 12:00:37,423 - INFO - Non-SQL response detected
+2025-05-08 12:00:46,608 - INFO - Non-SQL response detected
+2025-05-08 12:01:00,738 - INFO - Non-SQL response detected
+2025-05-08 12:01:25,009 - INFO - Non-SQL response detected
+2025-05-08 12:02:33,612 - INFO - Non-SQL response detected
+2025-05-08 12:25:06,130 - INFO - Non-SQL response detected
+2025-05-08 12:25:49,974 - INFO - Non-SQL response detected
+2025-05-08 12:26:38,053 - INFO - Non-SQL response detected
+2025-05-08 12:30:25,593 - INFO - Non-SQL response detected
+2025-05-08 12:44:31,735 - INFO - Non-SQL response detected
+2025-05-08 12:44:43,974 - INFO - Non-SQL response detected
+2025-05-08 12:45:19,200 - INFO - Non-SQL response detected
+2025-05-08 14:09:19,836 - INFO - Non-SQL response detected
+2025-05-08 15:35:23,305 - INFO - Non-SQL response detected
+2025-05-08 16:07:50,638 - INFO - Non-SQL response detected
+2025-05-08 16:07:57,187 - INFO - Non-SQL response detected
+2025-05-08 16:33:50,836 - INFO - Non-SQL response detected
+2025-05-08 17:17:53,268 - INFO - Non-SQL response detected
+2025-05-08 17:53:25,773 - INFO - Non-SQL response detected

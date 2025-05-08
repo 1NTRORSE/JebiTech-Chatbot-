@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+bcrypt
+schedule
+python-dotenv
+google-generativeai
+pandas
+cryptography
