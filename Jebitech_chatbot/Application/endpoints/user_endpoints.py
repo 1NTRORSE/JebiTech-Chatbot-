@@ -550,6 +550,7 @@ class AssignedUser(BaseModel):
     session_id: Union[int, str]
     transfer_id: Union[int, str]
     agent_id: Union[int, str]
+    agent_name: str
     status: str
 
 @guest_router.get("/assigned_users", response_model=List[AssignedUser])
@@ -572,6 +573,7 @@ def get_assigned_users(db: Session = Depends(get_db)):
             Session_Table.status,
             ChatTransfer.transfer_id,
             ChatTransfer.agent_id,
+            AgentID.agent_name,
         )
         .join(ChatTransfer, ChatTransfer.session_id == Session_Table.session_id)
         .join(subquery, and_(
@@ -588,6 +590,7 @@ def get_assigned_users(db: Session = Depends(get_db)):
             "session_id": row.session_id,
             "transfer_id": row.transfer_id,
             "agent_id": row.agent_id,
+            "agent_name": row.agent_name,
             "status": row.status
         }
         for row in assigned_sessions
