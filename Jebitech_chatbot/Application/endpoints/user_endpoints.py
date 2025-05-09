@@ -555,17 +555,17 @@ class AssignedUser(BaseModel):
 
 @guest_router.get("/assigned_users", response_model=List[AssignedUser])
 def get_assigned_users(db: Session = Depends(get_db)):
-    # Subquery to get the latest transfer per session
-    subquery = (
+    # Subquery to get the latest transfer per session_id
+    latest_transfers = (
         db.query(
             ChatTransfer.session_id,
-            func.max(ChatTransfer.transferred_at).label("latest_transfer_time")
+            func.max(ChatTransfer.transferred_at).label("latest_time")
         )
         .group_by(ChatTransfer.session_id)
         .subquery()
     )
 
-    # Join Session_Table with ChatTransfer using the subquery
+    # Join only the latest transfer per session
     assigned_sessions = (
         db.query(
             Session_Table.user_id,
@@ -575,11 +575,12 @@ def get_assigned_users(db: Session = Depends(get_db)):
             ChatTransfer.agent_id,
             AgentID.agent_name,
         )
-        .join(ChatTransfer, ChatTransfer.session_id == Session_Table.session_id)
-        .join(subquery, and_(
-            ChatTransfer.session_id == subquery.c.session_id,
-            ChatTransfer.transferred_at == subquery.c.latest_transfer_time
+        .join(latest_transfers, and_(
+            ChatTransfer.session_id == latest_transfers.c.session_id,
+            ChatTransfer.transferred_at == latest_transfers.c.latest_time
         ))
+        .join(Session_Table, Session_Table.session_id == ChatTransfer.session_id)
+        .join(AgentID, ChatTransfer.agent_id == AgentID.agent_id)
         .filter(Session_Table.status == "assigned")
         .all()
     )
