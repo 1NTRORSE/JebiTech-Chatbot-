@@ -406,6 +406,7 @@ async def get_all_session_chat( db: Session = Depends(get_db)):
             continue
         else:
             session_info={
+            "user_id": session.user_id,
             "session_id": session.session_id,
             "Started At":session.started_at,
             "Ended At":session.ended_at
